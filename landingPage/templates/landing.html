@@ -2,7 +2,8 @@
 <html>
 <head>
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'javascript/buttons.js' %}"></script>
     <title>Place Holder Landing Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,9 +15,12 @@
         <a href="#" class="btn">Learn More</a>
         <a href="#" class="btn">Get Started</a>
     </div>
-  
+    
+    <button onclick="button()">Click me</button>
+    
     <footer>
         Website made for learning purposes
     </footer>
+    
 </body>
 </html>
