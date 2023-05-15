@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'landingPage',
-    'node_modules',
 ]
 
 MIDDLEWARE = [
@@ -120,7 +120,6 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     BASE_DIR / "landingPage/static",
-    BASE_DIR / "node_modules/"
 ]
 
 # Default primary key field type
