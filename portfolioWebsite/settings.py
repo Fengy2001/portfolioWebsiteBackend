@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'landingPage',
+    'numericalAnalysis',
 ]
 
 MIDDLEWARE = [
@@ -119,7 +119,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-    BASE_DIR / "landingPage/static",
+    BASE_DIR
 ]
 
 # Default primary key field type
